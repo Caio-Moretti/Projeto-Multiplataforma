@@ -1,3 +1,6 @@
+![Banner](img/Banner.png)
+
+
 # Projeto Multiplataforma Etapa 2
 
 **Link da Aplicação**: [http://54.189.185.141:5000/library](http://54.189.185.141:5000/library)
@@ -22,3 +25,6 @@ A aplicação funciona como um espaço onde você pode adicionar livros lidos e 
 - Melhorar o front-end do website.
 - Adicionar um sistema de Log In.
 - Adicionar um serviço de banco de dados, como RDS ou DynamoDB.
+
+
+![Banner](img/Ending.png)
