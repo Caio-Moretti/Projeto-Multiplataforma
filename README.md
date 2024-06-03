@@ -26,5 +26,11 @@ A aplicação funciona como um espaço onde você pode adicionar livros lidos e 
 - Adicionar um sistema de Log In.
 - Adicionar um serviço de banco de dados, como RDS ou DynamoDB.
 
+## Como funciona
+
+- Criar um PR de modificação da pasta "terraform/" acionará o workflow de terraform plan e aprovar o PR criará um workflow de terraform apply, isso vai fazer com que a aplicação seja deployada na AWS
+
+- Criar um PR de modificação da pasta "app/" acionará o workflow de redeploy da aplicação que vai modificar o container no Docker Hub e depois vai fazer o redeploy da instância EC2.
+
 
 ![Banner](img/Ending.png)
